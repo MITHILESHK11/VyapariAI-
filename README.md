@@ -240,7 +240,7 @@ All rights reserved.
 
 ## 👤 Team
 
-**Mithilesh Kolhapurkar**  
+**Ankita Patil**  
 AI / ML & Full-Stack Developer  
 
 ---
