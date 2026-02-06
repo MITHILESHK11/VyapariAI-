@@ -102,7 +102,7 @@ Existing solutions are either too complex or not built for the **Indian MSME eco
 ## 👤 Team
 
 **Ankita Patil**  
-AI / ML & Full-Stack Developer  
+**Mithilesh Kolhapurkar**
 
 ---
 
