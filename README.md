@@ -2,7 +2,7 @@
 ### AI-Powered Business Growth OS for Small Retailers in India 🇮🇳
 
 <p align="center">
-  <img src="assets/vyapariAI.png" alt="VyapariAI – AI Business Growth Platform" width="100%">
+  <img src="vyapariAI.png" alt="VyapariAI – AI Business Growth Platform" width="100%">
 </p>
 
 VyapariAI is an **India-first, AI-powered platform** designed to help small retail shop owners (kirana stores and MSMEs) **start, manage, and scale** their businesses using data-driven insights.
