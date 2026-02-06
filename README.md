@@ -1,9 +1,7 @@
 # 🚀 VyapariAI  
-### AI-Powered Business Growth OS for Small Retailers in India 🇮🇳
+### AI-Powered Business Growth OS for Small Retailers in India
 
-<p align="center">
-  <img src="vayapariAI.png" alt="VyapariAI – AI Business Growth Platform" width="100%">
-</p>
+![VyapariAI](vayapariAI.png)
 
 VyapariAI is an **India-first, AI-powered platform** designed to help small retail shop owners (kirana stores and MSMEs) **start, manage, and scale** their businesses using data-driven insights.
 
@@ -56,63 +54,9 @@ Existing solutions are either too complex or not built for the **Indian MSME eco
 
 ---
 
-## 🏗️ System Architecture (High Level)
+## 🏗️ System Architecture
 
-flowchart TB
-
-    %% Users
-    U[Retailer<br/>(Web / Mobile PWA)]
-
-    %% Frontend & Security
-    U -->|HTTPS| CF[CloudFront CDN]
-    CF --> WAF[AWS WAF]
-    WAF --> APIGW[API Gateway]
-
-    %% Auth
-    APIGW --> COG[AWS Cognito<br/>Auth & RBAC]
-
-    %% Core Backend Services
-    APIGW --> ALB[Application Load Balancer]
-
-    ALB --> US[User Service]
-    ALB --> BS[Business & Compliance Service]
-    ALB --> SS[Sales Service]
-    ALB --> IS[Inventory Service]
-    ALB --> PS[Pricing Service]
-    ALB --> CS[Customer Analytics Service]
-    ALB --> RS[Reporting Service]
-
-    %% Databases
-    US --> RDS[(RDS PostgreSQL)]
-    BS --> RDS
-    IS --> RDS
-    RS --> RDS
-
-    SS --> DDB[(DynamoDB<br/>Sales Transactions)]
-    SS --> EVB[EventBridge]
-
-    %% Cache
-    RDS --> REDIS[(ElastiCache Redis)]
-    RS --> REDIS
-
-    %% AI / ML Layer
-    RDS --> S3[(S3 Data Lake)]
-    S3 --> SM[SageMaker<br/>ML Models]
-    SM --> FC[AWS Forecast<br/>Demand Prediction]
-
-    FC --> PS
-    FC --> IS
-    SM --> CS
-
-    %% Notifications
-    EVB --> LMB[AWS Lambda<br/>Decision Engine]
-    LMB --> SNS[SNS / SES / WhatsApp API]
-
-    %% Analytics
-    RDS --> QS[Amazon QuickSight]
-
-    %% Monitoring
-    APIGW --> CW[CloudWatch Monitoring]
+![VyapariAI Architecture Diagram](systemarrhitecture.png)
 
 
 ## 🎯 Impact & Benefits
