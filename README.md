@@ -101,11 +101,12 @@ Dashboard & Alerts
 
 ## 📁 Repository Structure
 
+'''
 📦 VyapariAI
-┣ 📄 requirements.md # Functional & Non-functional requirements
-┣ 📄 design.md # System & AI architecture design
-┣ 📄 README.md # Project overview (this file)
-
+  ┣ 📄 requirements.md # Functional & Non-functional requirements
+  ┣ 📄 design.md # System & AI architecture design
+  ┣ 📄 README.md # Project overview (this file)
+'''
 
 ---
 
